@@ -1,0 +1,15 @@
+name=input("Enter the name of the student:")
+usn=input("Enter the usn of the student:")
+m1=float(input("Enter the marks in the first subject:"))
+m2=float(input("Enter the marks in the second subject:"))
+m3=float(input("Enter the marks in the third subject:"))
+total_marks=m1+m2+m3
+per=(total_marks/300)*100
+print("Student detials are:")
+print("Name is:",name)
+print("Usn is:",usn)
+print("Marks in the first subject :",m1)
+print("Marks in the second subject :",m2)
+print("Marks in the third subject :",m3)
+print("Total Marks obtained:",total_marks)
+print("Percentage of marks:",per)
